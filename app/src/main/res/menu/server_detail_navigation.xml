@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/hardpan"
+        android:title="@string/hardpan" />
+    <item
+        android:id="@+id/CPU"
+        android:title="@string/CPU" />
+    <item
+        android:id="@+id/internet"
+        android:title="@string/Internet"/>
+    <item
+        android:id="@+id/process"
+        android:title="@string/server_process"/>
+</menu>

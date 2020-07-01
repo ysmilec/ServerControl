@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="主机名"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="?android:attr/listDivider"
+        />
+    <TextView
+        android:id="@+id/tv_server_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="580dp">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_serverdetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@color/cardview_light_background"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/server_detail_navigation">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">服务器监控app</string>
+    <string name="action_add_server">增加服务器</string>
+    <string name="action_clear_server">清空服务器</string>
+
+    <string name="server_list">最近使用服务器列表</string>
+    <string name="category_report_tab">类别报表</string>
+    <string name="username">用户名</string>
+    <string name="host">IP</string>
+    <string name="password">密码</string>
+    <string name="server_detail">请输入服务器相关信息:</string>
+    <string name="latest_server">最近使用</string>
+    <string name="all_server">全部</string>
+    <string name="settings">设置</string>
+    <string name="title_activity_server_details">ServerDetailsActivity</string>
+    <string name="hardpan">硬盘信息</string>
+    <string name="CPU">CPU信息</string>
+    <string name="memory">内存信息</string>
+    <string name="Internet">网络信息</string>
+    <string name="server_process">进程信息</string>
+
+</resources>
